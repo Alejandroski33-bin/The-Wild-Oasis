@@ -2,5 +2,6 @@
   "version": 2,
   "builds": [{ "src": "*.js", "use": "@vercel/node" }],
   "routes": [{ "src": "/.*", "dest": "/" }],
-  "regions": ["sfo1"]
+  "regions": ["sfo1"],
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
