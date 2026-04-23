@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 supabase-password
+passsupa
 
 # Editor directories and files
 .vscode/*
